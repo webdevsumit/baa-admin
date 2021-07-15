@@ -21,6 +21,7 @@
 .product-card img{
 	flex:1;
 	background-color:black;
+	max-height:80px;
 }
 
 .product-card h5{
