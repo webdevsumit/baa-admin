@@ -1,0 +1,30 @@
+
+.nav{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:30px;
+	box-shadow:1px 1px 4px grey;
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	z-index:1;
+	background-color:white;
+}
+
+.nav-title{
+	margin:5px;
+}
+
+.nav-menu{
+	display:flex;
+	margin-left:auto;
+}
+
+
+.nav-menu>a{
+	margin:auto 5px;
+	color:green;
+	font-size:18px;
+}

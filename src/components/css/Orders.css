@@ -1,0 +1,54 @@
+.orders{
+	margin:30px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+	width:fit-content;
+	margin:auto;
+	margin-top:40px;
+}
+
+.product-card{
+	box-shadow:1px 1px 4px grey;
+	margin:10px;
+	display:flex;
+	color:black;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.product-card img{
+	flex:1;
+	background-color:black;
+}
+
+.product-card h5{
+	flex:5;
+	padding:10px;
+}
+
+.search-bar{
+	margin:10px;
+}
+
+.search-box{
+	padding:1px;
+	margin:2px;
+	border:none;
+	border-bottom:2px solid green;
+	letter-spacing:1px;
+	outline:none;
+	box-shadow:0px 1px 4px solid grey;
+}
+
+.search-btn{
+	background-color:green;
+	color:white;
+	padding:2px;
+	margin:4px;
+	font-size:14px;
+	cursor:pointer;
+	border:none;
+	box-shadow:1px 1px 4px grey;
+}

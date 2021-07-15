@@ -1,0 +1,69 @@
+
+
+.login-page{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+	width:100%;
+	height:100vh;
+}
+
+.login-page input{
+	margin:10px;
+	padding:5px;
+	border-radius:10px;
+	text-align:center;
+	width:340px;
+	letter-spacing:2px;
+	outline:none;
+	cursor:pointer;
+	transition:all ease 0.4s;
+	border:2px solid grey;
+	
+}
+
+.login-page input:hover{
+	border:2px solid green;
+}
+
+
+.hide-btn{
+	padding:2px;
+	font-size:12px;
+	background-color:#ddd !important;
+}
+
+.login-btn{
+	color:white;
+}
+
+.login-page button, .hide-btn{
+	margin:10px;
+	padding:5px;
+	border-radius:3px;
+	width:fit-content;
+	text-align:center;
+	border:none;
+	outline:none;
+	background-color:green;
+	font-weight:700;
+	font-family:monospace;
+	cursor:pointer;
+	box-shadow: 1px 1px 4px grey;
+
+	transition:all ease 0.4s;
+}
+
+.login-page button:hover, .hide-btn:hover{
+	box-shadow: 1px 1px 8px grey;
+}
+
+.title{
+	margin:20px;
+	color:green;
+	text-shadow:1px 1px 4px green;
+}
+
+
